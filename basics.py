@@ -39,3 +39,10 @@ with open("sample.txt", "r") as file:
     content = file.read()
     print("\nFile content:")
     print(content)
+
+# 6. Lists
+fruits = ["apple", "banana", "cherry"]
+print("\nFruits list:")
+for fruit in fruits:
+    print(fruit)
+
